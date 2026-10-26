@@ -8,7 +8,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/作者-呆塔大师兄-blueviolet?style=for-the-badge&logo=bookstack" alt="呆塔大师兄"/>
-  <img src="https://img.shields.io/badge/微信-a237658765-9cf?style=for-the-badge" alt="微信a237658765"/>
   <img src="https://img.shields.io/badge/选题-1000%20题-success?style=for-the-badge" alt="1000题"/>
   <img src="https://img.shields.io/badge/行业-21%20类-informational?style=for-the-badge" alt="21行业"/>
   <img src="https://img.shields.io/badge/获奖名单-避重核验-ff69b4?style=for-the-badge" alt="获奖避重"/>
