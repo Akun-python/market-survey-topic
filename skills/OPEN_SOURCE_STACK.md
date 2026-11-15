@@ -1,6 +1,6 @@
 # 开源工具链总纲（Open Source Stack）
 
-> **配套**：本仓库 `skills/` 下 8 个 SKILL 的**工具实现层**。每个 SKILL.md 的"开源工具链"一节指向这里；本文给安装命令、最小可运行代码、无 SPSS 团队的 GUI 替代方案。
+> **配套**：本仓库 `skills/` 下 9 个 SKILL 的**工具实现层**。每个 SKILL.md 的"开源工具链"一节指向这里；本文给安装命令、最小可运行代码、无 SPSS 团队的 GUI 替代方案。统一 DOCX 交付与渲染检查规范见 [`WORD_DELIVERY.md`](WORD_DELIVERY.md)。
 >
 > **立场**：开源工具由**团队自己跑数据、出图表**；脚本与工具版本请进附录，便于评审核验与复现。
 
@@ -12,7 +12,7 @@ python -m venv .venv
 .venv\Scripts\activate            # Windows
 pip install pandas numpy scipy statsmodels scikit-learn factor_analyzer \
             pingouin semopy jieba snownlp gensim pyLDAvis wordcloud \
-            matplotlib seaborn yellowbrick pyreadstat jupyter
+            matplotlib seaborn yellowbrick pyreadstat jupyter python-docx
 pip freeze > requirements.txt     # 锁定版本，脚本进附录
 
 # R（可选，抽样/复杂设计更全）
@@ -49,6 +49,8 @@ install.packages(c("sampling", "survey", "RDS", "psych", "lavaan", "semTools", "
 | 版本管理 | `git` | 每章一提交、可回滚 | git-scm.com |
 
 ## 三、最小可运行代码（对照 SK2–SK5 直接改）
+
+DOCX 公共结构、样式、命名和验证要求见 [`WORD_DELIVERY.md`](WORD_DELIVERY.md)。
 
 ### 1. 样本量计算（SK2）
 
