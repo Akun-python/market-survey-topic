@@ -1,12 +1,12 @@
-# 结构化市场调研 · Skill 体系（v0.3 · 8 个标准 skill 目录）
+# 结构化市场调研 · Skill 体系（v0.4 · 9 个标准 skill 目录）
 
-> 把「正大杯市场调查报告」从选题到定稿拆成 **8 个标准 skill**。每个 skill 都是一个独立目录，含三件套：
+> 把「正大杯市场调查报告」从选题到定稿拆成 **9 个标准 skill**。每个 skill 都是一个独立目录，含三件套：
 >
 > - **`SKILL.md`** — 指令本体（front-matter 元数据 + 步骤/模板/验收/写法要点十段式）
 > - **`examples/`** — 演示性质的示范文件（数据为演示用途，非参赛原文）
 > - **`references/`** — 参考资料清单（赛制规则 + 方法论参考 + 开源工具）
 >
-> **依据**：大赛评分方式与评审标准 + 历届获奖作品写法的共性提炼（不在 skill 中陈列具体作品）+ 本仓库 `references/` 备赛资料。
+> **依据**：大赛评分方式与评审标准 + 历届获奖作品写法的共性提炼（不在 skill 中陈列具体作品）+ 本仓库 `references/` 备赛资料。选题推荐 Skill 仅提供结构化判断框架，不声称官方评分或保证获奖；所有证据与避重结论须按注明范围核验。
 
 ---
 
@@ -16,6 +16,7 @@
 skills/
 ├── README.md                 # 本索引
 ├── OPEN_SOURCE_STACK.md      # 开源工具链总纲
+├── survey-topic-selection/           00 选题策划与推荐
 ├── survey-background-analysis/      01 背景分析
 ├── survey-framework-design/         02 调查框架设计
 ├── survey-questionnaire-design/     03 问卷设计
@@ -30,6 +31,7 @@ skills/
 
 | # | Skill（目录 / 中文名） | 工序 | 对标评分 | 输入 → 输出 | 依赖 |
 |---|---|---|---|---|---|
+| 00 | [survey-topic-selection](survey-topic-selection/SKILL.md) · 选题策划与推荐 | 立项前 | 研究选题 10 + 文献研究 7 + 方案设计 20 | 团队约束 + 候选题 → 选题卡 + 排序依据 + 核验清单 | — |
 | 01 | [survey-background-analysis](survey-background-analysis/SKILL.md) · 背景分析 | 立项 | 研究选题 10 + 文献研究 7 | 选题卡 + 政策 + 文献 → 绪论（背景/意义/目的/创新点） | — |
 | 02 | [survey-framework-design](survey-framework-design/SKILL.md) · 调查框架设计 | 方案 | 方案设计 20 | 研究点 + 假设 → 方案书 + 抽样方案 + 样本量 | 01 |
 | 03 | [survey-questionnaire-design](survey-questionnaire-design/SKILL.md) · 问卷设计 | 实施 | 方案设计 20 + 调查实施 20 | 变量清单 → 问卷终稿 + 信效度报告 | 02 |
@@ -43,7 +45,8 @@ skills/
 
 ```mermaid
 flowchart TD
-    A["01 背景分析<br/>选题卡→绪论"] --> B["02 调查框架设计<br/>方案/抽样/样本量"]
+    T["00 选题策划与推荐<br/>候选题→选题卡"] --> A["01 背景分析<br/>选题卡→绪论"]
+    A --> B["02 调查框架设计<br/>方案/抽样/样本量"]
     B --> C["03 问卷设计<br/>预调查→定稿"]
     C --> D["04 数据分析<br/>描述→差异→建模"]
     D --> E["08 结论撰写<br/>结论+分主体建议"]
@@ -82,7 +85,7 @@ flowchart TD
 
 | 仓库资产 | 服务于 |
 |---|---|
-| 2000 题选题库（`_industry_map.json` + 21 个行业目录） | 01 背景分析的选题卡输入 |
+| 2000 题选题库（`_industry_map.json` + `正大杯最新选题/` 下 21 个行业目录） | 00 候选池检索；01 背景分析的选题卡输入 |
 | `references/获奖名单/`（9555 条） | 01 选题避重核验 |
 | `references/竞赛方式计分及报告评审说明.md` | 全部 skill 的验收标准 |
 | `references/第十七届赛制资料/` | 时间线与赛制校准 |
