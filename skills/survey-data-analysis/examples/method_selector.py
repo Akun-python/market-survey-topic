@@ -1,4 +1,4 @@
-"""正大杯数据分析方法选择演示：只提供候选及诊断，不运行真实分析。"""
+"""市调大赛数据分析方法选择演示：只提供候选及诊断，不运行真实分析。"""
 from dataclasses import dataclass
 
 @dataclass(frozen=True)

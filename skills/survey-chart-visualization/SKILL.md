@@ -276,7 +276,7 @@ plt.tight_layout(); plt.savefig("fig_04_heatmap.png", dpi=300); plt.close()
 - 统计显著不等于实质重要；图下解读同时写方向、效应大小和不确定性，不能用“明显/显著”替代数字。
 
 
-## 正大杯比赛格式与评分对接
+## 市调大赛比赛格式与评分对接
 
 本 Skill 的最终成果须同时符合 [`../COMPETITION_REPORT_STANDARD.md`](../COMPETITION_REPORT_STANDARD.md) 与当届官方附件；该文件按第17届本科组整理，届次变化时重新核对。交付前把本阶段产出填入“评分证据链”：对应评分板块、报告位置、数据/文献/实施证据、局限和待核验项。
 
