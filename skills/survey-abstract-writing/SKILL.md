@@ -3,7 +3,7 @@ name: survey-abstract-writing
 title: 摘要撰写
 description: 用于撰写市场调查报告独立摘要页（正大杯）——五要素结构（背景/对象/方法/结果/价值）、数字密度要求、摘要写法要点对照、关键词与英文摘要规范、验收清单。
 layer: 产出层
-rubric: [报告文本 15]
+rubric: [报告文本 20]
 depends_on: [survey-report-writing, survey-conclusion-writing]
 feeds: []
 ---

@@ -3,7 +3,7 @@ name: survey-background-analysis
 title: 背景分析
 description: 用于撰写市场调查报告（正大杯）的绪论与背景分析——把选题写成"政策—市场—学术"三层论证链，产出研究背景、研究意义、研究目的与研究创新点；含文献矩阵、创新点句式、验收清单与写法要点对照。
 layer: 立项层
-rubric: [研究选题 10, 文献研究 7]
+rubric: [研究选题+文献综述 20]
 depends_on: []
 feeds: [survey-framework-design]
 ---

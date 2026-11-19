@@ -3,7 +3,7 @@ name: survey-questionnaire-design
 title: 问卷设计
 description: 用于撰写或审查调查问卷——五段式结构（卷首语/筛选/基本信息/核心量表/开放题）、题项三来源（成熟量表/扎根编码/专家访谈）、李克特量表规范、跳转逻辑、防伪题与预调查信效度（α≥0.7、KMO≥0.6）；含维度-题项对照表模板。
 layer: 方案实施层
-rubric: [方案设计 20, 调查实施 20]
+rubric: [方案设计+调查实施 30]
 depends_on: [survey-framework-design]
 feeds: [survey-data-analysis]
 ---

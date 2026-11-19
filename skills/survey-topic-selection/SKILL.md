@@ -3,7 +3,7 @@ name: survey-topic-selection
 title: 选题策划与推荐
 description: 用于为正大杯市场调查与分析大赛筛选、诊断和打磨可执行的研究选题——结合选题库检索、获奖避重、政策与市场证据核验、双研究点拆解、对象与地区界定、方法和样本可行性评估，输出可比较的候选选题卡及推荐理由。
 layer: 立项层
-rubric: [研究选题 10, 文献研究 7, 方案设计 20]
+rubric: [研究选题+文献综述 20, 方案设计+调查实施 30]
 depends_on: []
 feeds: [survey-background-analysis, survey-framework-design]
 ---

@@ -3,7 +3,7 @@ name: survey-data-analysis
 title: 数据分析
 description: 用于问卷/文本/二手数据的系统分析——数据清洗与抽检、信效度与随机性检验、描述统计、差异性检验、聚类画像、解释性建模（SEM/Logistic/有序Probit/中介调节）、文本挖掘与市场预测的六层金字塔及方法选择决策树，并输出"结论—证据链表"。
 layer: 分析层
-rubric: [分析与结论 25]
+rubric: [数据分析与结论 30]
 depends_on: [survey-questionnaire-design]
 feeds: [survey-conclusion-writing, survey-report-writing]
 ---

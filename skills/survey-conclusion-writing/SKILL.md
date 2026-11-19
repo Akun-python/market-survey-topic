@@ -3,7 +3,7 @@ name: survey-conclusion-writing
 title: 结论撰写
 description: 用于撰写市场调查报告的结论与建议章节——结论=发现+证据+解释（4–7 条编号式）、建议=主体×动作×落地路径×依据（主体分层或策略主题两种组织）、结论-建议映射表与验收清单。
 layer: 产出层
-rubric: [分析与结论 25]
+rubric: [数据分析与结论 30]
 depends_on: [survey-data-analysis]
 feeds: [survey-report-writing]
 ---

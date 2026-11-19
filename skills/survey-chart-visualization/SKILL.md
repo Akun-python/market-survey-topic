@@ -3,7 +3,7 @@ name: survey-chart-visualization
 title: 绘图（图表可视化）规范
 description: 用于为市场调查报告制作规范图表——按数据形态选择图型、中文字体与统一色板、Python 代码模板（条形/雷达/t-SNE/预测/词云/热力图）、图题表题与来源注、编号与图表清单管理。
 layer: 贯穿层（分析→报告）
-rubric: [报告文本 15, 分析与结论 25]
+rubric: [报告文本 20, 数据分析与结论 30]
 depends_on: [survey-data-analysis]
 feeds: [survey-report-writing]
 ---
