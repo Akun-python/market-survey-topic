@@ -3,7 +3,7 @@
 示例：市场调查报告常用图表代码（对照 SK5 的代码模板）
 运行：python example_charts.py
 依赖：matplotlib, numpy（可选 sklearn；本文件不强制）
-输出：./output/*.png（300 dpi）
+输出：./output/*.png（300 dpi；全部为模拟数据，不得作为真实调查结论）
 """
 
 import os
@@ -40,7 +40,7 @@ def bar_chart():
                     (b.get_x() + b.get_width() / 2, v),
                     ha="center", va="bottom", fontsize=9)
     ax.set_ylabel("人数（人）")
-    ax.set_title("样本性别构成")
+    ax.set_title("样本性别构成（演示数据）")
     ax.set_ylim(0, max(vals) * 1.15)
     ax.spines[["top", "right"]].set_visible(False)
     fig.savefig(os.path.join(OUT, "fig_01_gender.png"))
@@ -65,7 +65,7 @@ def radar_chart():
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(dims)
     ax.set_ylim(0, 5)
-    ax.set_title("四类消费者画像（均值，1–5 分）")
+    ax.set_title("四类消费者画像（演示均值，1–5 分）")
     ax.legend(loc="upper right", bbox_to_anchor=(1.28, 1.12))
     fig.savefig(os.path.join(OUT, "fig_02_radar.png"))
     plt.close(fig)
